@@ -1,1 +1,3 @@
 CLIENT has a set of jobs to be executed
+
+1-Worker per Q vs 1-Q per Host with N-workers
