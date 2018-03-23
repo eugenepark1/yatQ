@@ -7,7 +7,7 @@ given a throughput (throughput meaning, how many jobs which can run in parallel,
 to elaborate, even if you have a throughput of 1000 jobs/sec, if there are 10 cores, then obv not all 1000 jobs will run in parallel
 in this problem, we will assume that there are enough resources to match throughput 
 
-find the minimum throughput for minimum elapsed time
+find the minimum throughput for minimum elapsed timek
     implies in what order job needs to be dispatched - always sorted
 '''
 import random

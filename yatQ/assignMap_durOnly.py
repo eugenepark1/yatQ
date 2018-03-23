@@ -83,7 +83,7 @@ def assign(jobs, queue_status):
     easy case [10,10,10,10,10]
     hard case [1,4,5,6,2] if q1 and q2 are empty then it doesnt matter, but if queue arent empty then we need some work
 
-    checkkkk
+    checkkkkk
     '''
     print calculate_balanceConstant(queue_status)
     q_loads = [ tup_v[0]/tup_v[1] for tup_v in queue_status.itervalues()]

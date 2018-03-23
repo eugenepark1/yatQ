@@ -56,7 +56,7 @@ def _ss(data):
 def stddev(data, ddof=0):
     """Calculates the population standard deviation
     by default; specify ddof=1 to compute the sample
-    standard deviation."""
+    standard deviationk."""
     n = len(data)
     if n < 2:
         raise ValueError('variance requires at least two data points')
